@@ -292,31 +292,31 @@ const Footer2 = () => {
           <IconSvg name={ WALLETS_INFO['metamask'].icon } boxSize={ 6 } mr="2"/>
           <Text color={ buttonColor }>Add { chain.name }</Text>
         </Button>
-        <Text mt="auto" fontSize="sm" color="#828E9D">&copy; 2024 Xone.</Text>
+        <Text mt="auto" fontSize="sm" color="#828E9D">&copy; 2024 BuyCEX.</Text>
       </VStack>
       <SimpleGrid mt={{ base: '5', md: '0' }} columns={{ base: 2, lg: 3 }} ml={{ md: 'auto' }} w="100%" maxW="500px" gap="4">
-        <Links title="Xone" links={ [
-          { text: 'Home', to: 'https://xone.org' },
-          { text: 'About', to: 'https://docs.xone.org/study/xone' },
-          { text: 'Terms of Service', to: 'https://docs.xone.org/study/service' },
-          { text: 'Privacy Policy', to: 'https://docs.xone.org/study/privacy' },
-          { text: 'Events', to: 'https://lu.ma/xone' },
+        <Links title="BuyCEX" links={ [
+          { text: 'Home', to: 'https://buycex.org' },
+          { text: 'About', to: 'https://buycex.org/bcx' },
+          { text: 'Terms of Service', to: 'https://buycex.org/service' },
+          { text: 'Privacy Policy', to: 'https://buycex.org/privacy' },
+          { text: 'Events', to: 'https://lu.ma/bcx' },
         ] }/>
 
         <Links title="Developers" links={ [
-          { text: 'Docs', to: 'https://docs.xone.org/developers/ready' },
-          { text: 'RPC Endpoints', to: 'https://docs.xone.org/developers/rpc' },
-          { text: 'Tools', to: 'https://docs.xone.org/developers/tools' },
-          { text: 'Faucets', to: 'https://faucet.xone.org/' },
-          { text: 'Github', to: 'https://github.com/hello-xone' },
-          { text: 'Gmail', to: 'mailto:developers@xone.org' },
+          { text: 'Docs', to: 'https://docs.buycex.org/developers/ready' },
+          { text: 'RPC Endpoints', to: 'https://docs.buycex.org/developers/rpc' },
+          { text: 'Tools', to: 'https://docs.buycex.org/developers/tools' },
+          { text: 'Faucets', to: 'https://faucet.buycex.org/' },
+          { text: 'Github', to: 'https://github.com/cosvmlabs' },
+          { text: 'Gmail', to: 'mailto:admin@buycex.com' },
         ] }/>
 
         <Links title="Community" links={ [
-          { text: 'Telegram', to: 'https://t.me/hello_xonechain/2' },
-          { text: 'X', to: 'https://x.com/xone_chain' },
-          { text: 'Youtube', to: 'https://www.youtube.com/@HelloXone' },
-          { text: 'Medium', to: 'https://medium.com/@xone_chain' },
+          { text: 'Telegram', to: 'https://t.me/buycex' },
+          { text: 'X', to: 'https://x.com/buycex' },
+          { text: 'Youtube', to: 'https://www.youtube.com/buycex' },
+          { text: 'Medium', to: 'https://medium.com/buycex' },
         ] }/>
 
       </SimpleGrid>
