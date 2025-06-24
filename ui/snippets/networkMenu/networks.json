@@ -1,13 +1,13 @@
 [
 	{
-	"title": "XONE Mainnet",
-	"url": "https://xscscan.com/",
+	"title": "BUYCEX",
+	"url": "https://explorer.buycex.net/",
 	"group": "Mainnets",
 	"icon": "/assets/favicon/android-chrome-192x192.png"
 	},
 	{
-	"title": "XONE Testnet",
-	"url": "https://testnet.xscscan.com/",
+	"title": "BUYCEX Testnet",
+	"url": "https://testnet.buycex.net/",
 	"group": "Testnets",
 	"icon": "/assets/favicon/android-chrome-192x192.png"
 	}
