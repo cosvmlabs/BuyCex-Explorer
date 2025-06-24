@@ -264,8 +264,8 @@ export default function useNavItems(): ReturnType {
         isActive: pathname.startsWith('/stats'),
       } : null,
       {
-        text: 'BVI',
-        icon: 'bvi',
+        text: 'Exchange',
+        icon: 'exchange',
         // subItems: [],
       },
       apiNavItems.length > 0 && {
